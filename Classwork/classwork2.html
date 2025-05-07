@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.4;
+      margin: 40px;
+    }
+    /* Title */
+    .title {
+      text-align: center;
+      color: red;
+      font-size: 1.8em;
+      font-weight: bold;
+      text-decoration: underline;
+      margin-bottom: 1em;
+    }
+    /* Iconized lines */
+    .icon-line {
+      margin: 0.5em 0;
+      display: flex;
+      align-items: flex-start;
+    }
+    .icon-line .icon {
+      font-size: 1.2em;
+      margin-right: 0.5em;
+      line-height: 1;
+    }
+    /* Remark with deletion and subscripts/superscripts */
+    .remark {
+      margin: 0.5em 0 1.5em 0;
+    }
+    .deleted {
+      background-color: red;
+      color: white;
+      text-decoration: line-through;
+      padding: 0 0.2em;
+    }
+    /* Table styling */
+    .petition-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 2px solid #6699CC;
+      margin: 1em 0;
+    }
+    .petition-table th,
+    .petition-table td {
+      padding: 0.6em 1em;
+      border: 1px solid #6699CC;
+    }
+    .petition-table .table-title {
+      text-align: center;
+      font-weight: bold;
+    }
+    .petition-table .highlight-row {
+      background-color: yellow;
+      font-weight: bold;
+    }
+    /* Checklist callouts */
+    .checklist {
+      list-style: none;
+      padding: 0;
+      margin: 1em 0;
+    }
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      margin: 0.3em 0;
+    }
+    .checklist .check {
+      color: green;
+      font-weight: bold;
+      margin-right: 0.5em;
+      font-size: 1.2em;
+      line-height: 1;
+    }
+    .checklist .highlight {
+      background-color: yellow;
+      padding: 0.1em 0.3em;
+      flex: 1;
+    }
+    .checklist em {
+      flex: 1;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title">Application Template</div>
+
+  <div class="icon-line">
+    <div class="icon">⌘</div>
+    <div>Please read the application instruction packet carefully before you begin constructing your template. Feel free to copy and paste your work into this document or create your own.</div>
+  </div>
+
+  <div class="icon-line">
+    <div class="icon">♍</div>
+    <div>Please read the application instruction packet carefully before you begin constructing your template. Feel free to copy and paste your work into this document or create your own.</div>
+  </div>
+
+  <div class="icon-line remark">
+    <div class="icon">♍</div>
+    <div>
+      Remark That:
+      <span class="deleted">This is must be delete</span>,
+      H<sub>2</sub>O and X<sup>2</sup>
+    </div>
+  </div>
+
+  <table class="petition-table">
+    <tr>
+      <td class="table-title">Petition for Exceptional Consideration</td>
+    </tr>
+    <tr>
+      <td>Prerequisite Documentation</td>
+    </tr>
+    <tr class="highlight-row">
+      <td>Resume</td>
+    </tr>
+    <tr>
+      <td>Self-Disclosure Statement</td>
+    </tr>
+    <tr>
+      <td>Writing Sample</td>
+    </tr>
+  </table>
+
+  <ul class="checklist">
+    <li>
+      <div class="check">✓</div>
+      <div class="highlight">Next you will upload your template in your eApp under the additional uploads option
